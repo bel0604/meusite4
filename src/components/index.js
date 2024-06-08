@@ -11,7 +11,7 @@ import React, {Component} from 'react';
     }
 
     entrar(){
-      this.setState({Nome: 'Matheus'})
+      this.setState({nome: 'Matheus'})
     }
  
     render(){
