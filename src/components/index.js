@@ -11,7 +11,7 @@ import React, {Component} from 'react';
     }
 
     entrar(){
-      this.setState({nome: 'Matheus'})
+      this.setState({nome: "Matheus"})
     }
  
     render(){
@@ -21,11 +21,11 @@ import React, {Component} from 'react';
                <button onClick={this.entrar}>
                 Entrar com Matheus
                </button>
-               <button onClick={ () => this.setState({nome:''})}>
+               <button onClick={() => this.setState({nome:''})}>
                 Sair
                </button>
             </div>
         );
     }
 }
-export default Membro; 
+export default Membro;

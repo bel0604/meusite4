@@ -6,9 +6,9 @@ class App extends Component{
   render(){
     return(
       <div>
-        <Membro nome = "vistante"/>
+        <Membro nome = "visitante"/>
       </div>
     );
   }
 }
-export default App;
+export default App; 
